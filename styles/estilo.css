@@ -1,8 +1,9 @@
-body{ 
+body {
     background-image: url("./assets/images/gimnasio.jpg");
-background-size: cover;
-text-decoration-color: white;
+    background-size: cover;
+    text-decoration-color: white;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -10,11 +11,13 @@ ul {
     overflow: hidden;
     background-color: #eb0b0b;
 }
-li{ 
+
+li {
     float: right;
     padding: 8px;
     display: block;
 }
+
 .button {
     background-color: grey;
     border: #eb0b0b;
