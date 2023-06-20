@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #eb0b0b;
+    background-color: ghostwhite;
 }
 
 li {
@@ -25,4 +25,14 @@ li {
     text-align: center;
     display: inline-block;
     font-size: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: ghostwhite;
+}
+.contacto{
+    flex-direction: column;
+    column-count: 3;
 }
