@@ -32,7 +32,13 @@ li {
     justify-content: space-between;
     background-color: ghostwhite;
 }
-.contacto{
+
+.contacto {
+    flex-direction: column;
+    column-count: 3;
+}
+
+.informacion {
     flex-direction: column;
     column-count: 3;
 }
