@@ -1,5 +1,5 @@
-body {
-    background-image: url("./assets/images/gimnasio.jpg");
+.encabezado {
+    background-image: url('.assets/images/gimnasio.jpg');
     background-size: cover;
     text-decoration-color: white;
 }
@@ -41,4 +41,5 @@ li {
 .informacion {
     flex-direction: column;
     column-count: 3;
+    align-items: baseline;
 }
