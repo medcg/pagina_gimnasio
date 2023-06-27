@@ -1,7 +1,10 @@
 .encabezado {
+    flex-direction: column;
+    display: flex;
     background-image: url('.assets/images/gimnasio.jpg');
     background-size: cover;
     text-decoration-color: white;
+    align-items: center;
 }
 
 ul {
