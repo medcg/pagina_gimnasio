@@ -31,6 +31,8 @@ li {
     text-align: center;
     display: inline-block;
     font-size: 15px;
+    text-decoration: none;
+
 }
 
 .header {
@@ -55,14 +57,16 @@ li {
     justify-content: center;
     text-align: center;
 }
-.footer{
+
+.footer {
     margin-left: 20%;
     margin-right: 20%;
     justify-content: center;
     text-align: center;
     gap: 50px;
 }
-.titular{
+
+.titular {
     padding: 5%;
     justify-content: center;
     text-align: center;
