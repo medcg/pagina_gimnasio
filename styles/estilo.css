@@ -1,13 +1,14 @@
 .encabezado {
     flex-direction: column;
     display: flex;
-    background-image: url(".assets/images/gimnasio.jpg");
+    background-image: url("../assets/images/gimnasio.jpg");
     background-size: cover;
     text-decoration-color: white;
     align-items: center;
     justify-content: center;
     gap: 100px;
     padding: 10%;
+    color: gray;
 }
 
 ul {
@@ -15,7 +16,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: ghostwhite;
+    background-color: gray;
+    color: white;
 }
 
 li {
@@ -39,7 +41,7 @@ li {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: ghostwhite;
+    background-color: gray;
 }
 
 .contacto {
@@ -60,15 +62,12 @@ li {
     text-align: justify;
 }
 
-.footer {
-    
-    margin-left: 20%;
-    margin-right: 20%;
+footer {
     justify-content: center;
     text-align: center;
-    gap: 50px;
     padding: 5%;
-    background-color: ghostwhite;
+    background-color: gray;
+    color: black;
 }
 
 .titular {
