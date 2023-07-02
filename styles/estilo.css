@@ -1,14 +1,14 @@
 .encabezado {
     flex-direction: column;
     display: flex;
-    background-image: url("../assets/images/gimnasio.jpg");
+    background-image: url("../assets/images/instalaciones.png");
     background-size: cover;
     text-decoration-color: white;
     align-items: center;
     justify-content: center;
     gap: 100px;
     padding: 10%;
-    color: gray;
+    color: white 
 }
 
 ul {
@@ -42,6 +42,7 @@ li {
     display: flex;
     justify-content: space-between;
     background-color: gray;
+    
 }
 
 .contacto {
